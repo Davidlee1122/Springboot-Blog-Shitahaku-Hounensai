@@ -16,14 +16,7 @@ public class UserService {
 	private UserRepository userRepository;
 	
 	@Transactional
-	public int 会員登録(User user) {
-		try {
-			userRepository.save(user);
-			return 1;
-		} catch (Exception e) {
-			e.printStackTrace();
-			System.out.println("UserService : 会員登録() : "+e.getMessage());
-		}
-		return -1;
+	public void 会員登録(User user) {
+		userRepository.save(user);
 	}
 }
