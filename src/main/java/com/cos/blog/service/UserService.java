@@ -16,6 +16,7 @@ public class UserService {
 	private UserRepository userRepository;
 	
 	@Transactional
+	//select를 할 때에도 Transactional을 붙인다 -> 왜? 정합성을 유지하기 위해서
 	public void 会員登録(User user) {
 		userRepository.save(user);
 	}
