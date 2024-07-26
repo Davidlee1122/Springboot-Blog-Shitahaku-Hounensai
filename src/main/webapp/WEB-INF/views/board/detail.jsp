@@ -5,13 +5,11 @@
 <div class="container">
 
 	<button class="btn btn-secondary" onclick="history.back()">戻る</button>
-	<c:if test="${not empty principal}">
-		<button id="btn-update" class="btn btn-warning">修正</button>
-		<button id="btn-delete" class="btn btn-danger">削除</button>
-	</c:if>
-
-	<br />
-	<br />
+	<div style="text-align: right;">
+		<br /> 
+		글 번호 : <span id="id"><i>${board.id} </i></span> 
+		작성자 : <span><i>${board.user.username} </i></span> <br />
+	</div>
 	<div>
 		<h3>${board.title}</h3>
 	</div>
@@ -20,6 +18,12 @@
 		<div>${board.content}</div>
 	</div>
 	<hr />
+	<c:if test="${board.user.id == principal.user.id}">
+	<div style="text-align: right;">
+		<a href="/board/${board.id}/updateForm" class="btn btn-warning">修正</a>
+		<button id="btn-delete" class="btn btn-danger">削除</button>
+	</div>	
+</c:if>
 </div>
 <script>
 	$('.summernote').summernote({
@@ -27,6 +31,7 @@
 		height : 300
 	});
 </script>
+<br />
 <script src="/js/board/board.js"></script>
 <%@ include file="../layout/footer.jsp"%>
 

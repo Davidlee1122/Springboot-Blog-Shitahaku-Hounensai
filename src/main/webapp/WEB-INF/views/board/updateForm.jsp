@@ -5,16 +5,17 @@
 <div class="container">
 
 	<form>
-		<div class="form-group">
+		<input type="hidden" id="id" value="${board.id}"/>
+		<div class="form-group"> 
 			<label for="title">Title</label>
-			<input type="text" class="form-control" placeholder="Enter title" id="title">
+			<input value="${board.title}"type="text" class="form-control" placeholder="Enter title" id="title">
 		</div>
 		<div class="form-group">
 			<label for="content">Content</label>
-			<textarea class="form-control summernote" rows="5" id="content"></textarea>
+			<textarea class="form-control summernote" rows="5" id="content">${board.content}</textarea>
 		</div>		
 	</form>
-	<button id="btn-save" class="btn btn-primary">投稿完了</button>
+	<button id="btn-update" class="btn btn-primary">修正完了</button>
 </div>
 <script>
 	$('.summernote').summernote({
