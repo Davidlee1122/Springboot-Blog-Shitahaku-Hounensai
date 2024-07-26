@@ -5,9 +5,13 @@
 <div class="container">
 
 	<button class="btn btn-secondary" onclick="history.back()">戻る</button>
-	<button id = "btn-update" class="btn btn-warning">修正</button>
-	<button id = "btn-delete" class="btn btn-danger">削除</button>
-	<br/><br/>
+	<c:if test="${not empty principal}">
+		<button id="btn-update" class="btn btn-warning">修正</button>
+		<button id="btn-delete" class="btn btn-danger">削除</button>
+	</c:if>
+
+	<br />
+	<br />
 	<div>
 		<h3>${board.title}</h3>
 	</div>
