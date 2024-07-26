@@ -40,7 +40,6 @@ public class Board {
 	private String content;//내용 엄청나게 길어질 수 있어
 	//섬머노트 라이브러리 사용할 건데 <html>태그가 섞여서 디자인 -> 글자 용량 커지게 됨
 	
-	@ColumnDefault("0")
 	private int count;//조회수
 	 
 	@ManyToOne(fetch = FetchType.EAGER)//Many = Board, User = one 한 명의 유저는 여러 개의 게시글을 쓸 수 있다.
