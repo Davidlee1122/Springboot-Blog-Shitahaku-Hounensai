@@ -20,6 +20,7 @@ public class UserService {
 	@Autowired
 	private BCryptPasswordEncoder encoder;
 	
+	
 	@Transactional
 	//select를 할 때에도 Transactional을 붙인다 -> 왜? 정합성을 유지하기 위해서
 	public void 会員登録(User user) {
@@ -42,7 +43,7 @@ public class UserService {
 		String rawPassword = user.getPassword();
 		String encPassword = encoder.encode(rawPassword);
 		persistance.setPassword(encPassword);
-		persistance.setEmail(user.getEmail());
+		persistance.setEmail(user.getEmail());		
 		//회원수정 함수 종료시 = 서비스 종료 = 트랜젝션 종료 = commit이 자동으로 된다.
 		//영속화된 persistance 객체의 변화가 감지되면 더티체킹이 되어 update문을 날려줌.
 	}
