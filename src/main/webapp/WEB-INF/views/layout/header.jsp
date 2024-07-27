@@ -26,7 +26,7 @@
 </style>
 </head>
 <body>
-	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+	<nav class="navbar navbar-expand-md bg-light navbar-light">
 		<a class="navbar-brand" href="/">Home</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 			<span class="navbar-toggler-icon"></span>
@@ -48,5 +48,4 @@
 				</c:otherwise>
 			</c:choose>
 		</div>
-	</nav>
-	<br />
+	</nav>	

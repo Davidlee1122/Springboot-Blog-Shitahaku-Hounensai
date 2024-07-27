@@ -3,7 +3,7 @@
 <%@ include file="../layout/header.jsp"%>
 
 <div class="container">
-
+	<br />
 	<form>
 		<div class="form-group">
 			<label for="title">Title</label>
@@ -23,6 +23,7 @@
 	});
 </script>
 <script src="/js/board/board.js"></script>
-<%@ include file="../layout/footer.jsp"%>
+</body>
+</html>
 
 
