@@ -27,7 +27,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-md bg-light navbar-light">
-		<a class="navbar-brand" href="/">Home</a>
+		<a class="navbar-brand"  href="/">Home</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -36,7 +36,8 @@
 				<c:when test="${empty principal}">
 					<ul class="navbar-nav">
 						<li class="nav-item"><a class="nav-link" href="/auth/loginForm">ログイン</a></li>
-						<li class="nav-item"><a class="nav-link" href="/auth/joinForm">会員登録</a>
+						<li class="nav-item"><a class="nav-link" href="/auth/joinForm">会員登録</a></li>
+						<li class="nav-item"><a class="nav-link" href="/auth/aboutForm">豊年祭について</a></li>
 					</ul>
 				</c:when>
 				<c:otherwise>
@@ -48,4 +49,4 @@
 				</c:otherwise>
 			</c:choose>
 		</div>
-	</nav>	
+	</nav>
