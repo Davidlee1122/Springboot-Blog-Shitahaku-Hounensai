@@ -2,6 +2,19 @@
 
 <%@ include file="../layout/header.jsp"%>
 
+<style>
+    .container {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 100vh; 
+    }
+
+    form {
+        width: 300px;
+    }
+</style>
+
 <div class="container">
 	<form>
 	<input type="hidden" id="id" value="${principal.user.id}"/>

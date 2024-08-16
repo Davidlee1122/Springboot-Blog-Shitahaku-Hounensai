@@ -27,6 +27,12 @@ public class BoardController {
 		return "index";  //return시 viewResolver가 작동!! ->해당 index페이지로 모델의 정보를 들고 감
 	}
 	
+	@GetMapping("/auth/pastarticles")
+	public String pastarticles(Model model, @PageableDefault(size=5, sort="id", direction = Sort.Direction.DESC) Pageable pageable) {
+		model.addAttribute("boards", boardService.記事目録(pageable));
+		return "auth/pastarticles";  
+	}
+	
 	@GetMapping("/board/{id}")
 	public String findById(@PathVariable int id, Model model) {
 		model.addAttribute("board", boardService.詳細(id));

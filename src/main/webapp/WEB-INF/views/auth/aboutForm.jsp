@@ -43,12 +43,20 @@ header.masthead {
   box-shadow: inset 0 -15px 0 #D9FCDB; 
   /*-10px은 highlight의 두께*/
 }
+.custom-hr {
+    border: 0;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.3); /* 투명도를 조절하여 더 얇게 보이도록 만듦 */
+    width: 100%;
+    margin: 0 auto;
+}
 </style>
 </head>
 <header class="masthead">
 	<p style="font-size: 65px">豊年祭について</p>
 </header>
 <br /><br />
+<div class="container">
 <div class="container container-custom" style="text-align: center;">
 	<h1 class="highlighted-text">志多伯獅子加那志の年忌祭</h1>
 	<br /><br />
@@ -74,8 +82,9 @@ header.masthead {
 		<h5>主役である獅子舞の演舞をはじめ、	当日は、午前中に、神人とムラの氏神である御嶽に、ムラの繁栄と作物の豊穣を祈願する。昼すぎから村芝居に出演する全員が「道ズネー（ジュネー）」といって芸装で行列をつくって練り歩く。そして遊び庭で、総踊りで座を一巡して奉納する。夕暮れになると、舞台が始まる。まず座清めとして舞方で幕を開け、長者の大主、舞踊、狂言、芝居、武の舞、組踊などが夜中まで行われる。獅子舞は、前獅子、中獅子、後獅子と3回演じられる。これがまつりの1日目であり、翌日は夜の舞台からはじまる。</h5>
 	</div>
 </div>
-<br />
-<br />
+	<br/>
+	<hr class="custom-hr">
+</div>
 <%@ include file="../layout/footer.jsp"%>
 
 

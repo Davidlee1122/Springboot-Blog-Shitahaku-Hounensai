@@ -26,23 +26,25 @@
 </style>
 </head>
 <body>
-	<nav class="navbar navbar-expand-md bg-light navbar-light">
-		<a class="navbar-brand"  href="/">Home</a>
+	<nav class="navbar bg-light navbar-light d-flex justify-content-center">
+		<a class="nav-link"  href="/auth/loginForm" style="color: #ffffff">◁</a>
+		<a class="navbar-brand mx-auto"  href="/">志多伯　Shitahaku</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<c:choose>
 				<c:when test="${empty principal}">
-					<ul class="navbar-nav">
-						<li class="nav-item"><a class="nav-link" href="/auth/loginForm">ログイン</a></li>
-						<li class="nav-item"><a class="nav-link" href="/auth/joinForm">会員登録</a></li>
+					<ul class="navbar-nav">												
 						<li class="nav-item"><a class="nav-link" href="/auth/aboutForm">豊年祭について</a></li>
+						<li class="nav-item"><a class="nav-link" href="/auth/pastarticles">過去の記事</a>
+						<li class="nav-item"><a class="nav-link" href="/auth/joinForm">会員登録</a></li>
 					</ul>
 				</c:when>
 				<c:otherwise>
 					<ul class="navbar-nav">
 						<li class="nav-item"><a class="nav-link" href="/auth/aboutForm">豊年祭について</a></li>
+						<li class="nav-item"><a class="nav-link" href="/auth/pastarticles">過去の記事</a>
 						<li class="nav-item"><a class="nav-link" href="/board/saveForm">投稿</a></li>
 						<li class="nav-item"><a class="nav-link" href="/user/updateForm">会員情報</a>
 						<li class="nav-item"><a class="nav-link" href="/logout">ログアウト</a>
