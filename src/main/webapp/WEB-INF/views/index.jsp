@@ -61,19 +61,19 @@
 	<ul class="pagination justify-content-center">
 		<c:choose>
 			<c:when test="${boards.first}">
-				<li class="page-item disabled"><a class="page-link" href="?page=${boards.number-1}">Previous</a></li>
+				<li class="page-item disabled"><a class="page-link" href="?page=${boards.number-1}">前へ</a></li>
 			</c:when>
 			<c:otherwise>
-				<li class="page-item"><a class="page-link" href="?page=${boards.number-1}">Previous</a></li>
+				<li class="page-item"><a class="page-link" href="?page=${boards.number-1}">前へ</a></li>
 			</c:otherwise>
 		</c:choose>
 
 		<c:choose>
 			<c:when test="${boards.last}">
-				<li class="page-item disabled"><a class="page-link" href="?page=${boards.number+1}">Next</a></li>
+				<li class="page-item disabled"><a class="page-link" href="?page=${boards.number+1}">次へ</a></li>
 			</c:when>
 			<c:otherwise>
-				<li class="page-item"><a class="page-link" href="?page=${boards.number+1}">Next</a></li>
+				<li class="page-item"><a class="page-link" href="?page=${boards.number+1}">次へ</a></li>
 			</c:otherwise>
 		</c:choose>
 
@@ -81,7 +81,7 @@
 		
 	<div class="btn-container">
     <a href="/auth/aboutForm" class="btn custom-btn">豊年祭について</a>
-    <a href="/auth/aboutForm" class="btn custom-btn">過去の記事</a>
+    <a href="/auth/pastarticles" class="btn custom-btn">過去の記事</a>
     <a href="/auth/aboutForm" class="btn custom-btn">関連記事</a>
 	</div>
 	<hr class="custom-hr">
