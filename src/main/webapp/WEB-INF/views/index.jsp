@@ -82,7 +82,7 @@
 	<div class="btn-container">
     <a href="/auth/aboutForm" class="btn custom-btn">豊年祭について</a>
     <a href="/auth/pastarticles" class="btn custom-btn">過去の記事</a>
-    <a href="/auth/aboutForm" class="btn custom-btn">関連記事</a>
+    <a href="/" class="btn custom-btn">関連記事</a>
 	</div>
 	<hr class="custom-hr">
 </div>
