@@ -46,12 +46,20 @@ header.masthead {
 	box-shadow: inset 0 -15px 0 #D9FCDB;
 	/*-10px은 highlight의 두께*/
 }
+
 .custom-hr {
     border: 0;
     height: 1px;
     background-color: rgba(0, 0, 0, 0.3); /* 투명도를 조절하여 더 얇게 보이도록 만듦 */
     width: 100%;
     margin: 0 auto;
+}
+
+.custom-btn {
+    border: 1px solid #000; 
+    padding: 
+    border-radius: 5px; 
+    text-decoration: none; 
 }
 </style>
 </head>
@@ -70,7 +78,7 @@ header.masthead {
 				<p class="card-text">
 					<fmt:formatDate value="${board.createDate}" pattern="yyyy.MM.dd" />
 				</p>
-				<a href="/board/${board.id}" class="btn btn-primary">詳細</a>
+				<a href="/board/${board.id}" class="btn custom-btn"">詳細</a>
 			</div>
 		</div>
 	</c:forEach>
@@ -78,19 +86,19 @@ header.masthead {
 	<ul class="pagination justify-content-center">
 		<c:choose>
 			<c:when test="${boards.first}">
-				<li class="page-item disabled"><a class="page-link" href="?page=${boards.number-1}">Previous</a></li>
+				<li class="page-item disabled"><a class="page-link" href="?page=${boards.number-1}">前へ</a></li>
 			</c:when>
 			<c:otherwise>
-				<li class="page-item"><a class="page-link" href="?page=${boards.number-1}">Previous</a></li>
+				<li class="page-item"><a class="page-link" href="?page=${boards.number-1}">前へ</a></li>
 			</c:otherwise>
 		</c:choose>
 
 		<c:choose>
 			<c:when test="${boards.last}">
-				<li class="page-item disabled"><a class="page-link" href="?page=${boards.number+1}">Next</a></li>
+				<li class="page-item disabled"><a class="page-link" href="?page=${boards.number+1}">次へ</a></li>
 			</c:when>
 			<c:otherwise>
-				<li class="page-item"><a class="page-link" href="?page=${boards.number+1}">Next</a></li>
+				<li class="page-item"><a class="page-link" href="?page=${boards.number+1}">次へ</a></li>
 			</c:otherwise>
 		</c:choose>
 
