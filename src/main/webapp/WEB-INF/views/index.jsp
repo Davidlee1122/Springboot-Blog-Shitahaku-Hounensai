@@ -47,7 +47,33 @@
 <div class="container">
 	<br />
 	<c:forEach var="board" items="${boards.content}">
-지</a></li>
+		<div class="card m-2">
+			<div class="card-body" style="text-align: right;">
+				<h4 class="card-title">${board.title}</h4>
+				<p class="card-text">
+					<fmt:formatDate value="${board.createDate}" pattern="yyyy.MM.dd" />
+				</p>
+				<a href="/board/${board.id}" class="btn custom-btn"">詳細</a>
+			</div>
+		</div>
+	</c:forEach>
+
+	<ul class="pagination justify-content-center">
+		<c:choose>
+			<c:when test="${boards.first}">
+				<li class="page-item disabled"><a class="page-link" href="?page=${boards.number-1}">前へ</a></li>
+			</c:when>
+			<c:otherwise>
+				<li class="page-item"><a class="page-link" href="?page=${boards.number-1}">前へ</a></li>
+			</c:otherwise>
+		</c:choose>
+
+		<c:choose>
+			<c:when test="${boards.last}">
+				<li class="page-item disabled"><a class="page-link" href="?page=${boards.number+1}">次へ</a></li>
+			</c:when>
+			<c:otherwise>
+				<li class="page-item"><a class="page-link" href="?page=${boards.number+1}">次へ</a></li>
 			</c:otherwise>
 		</c:choose>
 
