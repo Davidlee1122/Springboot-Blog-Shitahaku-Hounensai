@@ -38,7 +38,7 @@
 					<ul class="navbar-nav">												
 						<li class="nav-item"><a class="nav-link" href="/auth/aboutForm">豊年祭について</a></li>
 						<li class="nav-item"><a class="nav-link" href="/auth/pastarticles">過去の記事</a>
-						<li class="nav-item"><a class="nav-link" href="/auth/joinForm">会員登録</a></li>
+						<li class="nav-item"><a class="nav-link" href="/">関連記事</a></li>
 					</ul>
 				</c:when>
 				<c:otherwise>
