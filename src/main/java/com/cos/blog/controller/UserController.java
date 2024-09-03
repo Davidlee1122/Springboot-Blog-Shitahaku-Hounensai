@@ -34,4 +34,9 @@ public class UserController {
 	public String relatedarticles() {
 		return "/auth/relatedarticles";
 	}
+
+	@GetMapping("/auth/access")
+	public String access() {
+		return "/auth/access";
+	}
 }
