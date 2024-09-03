@@ -2,7 +2,7 @@
 <%@ include file="../layout/header.jsp"%>
 <style>
 header.masthead {
-	background-image: url('${pageContext.request.contextPath}/images/4.jpg');
+	background-image: url('${pageContext.request.contextPath}/images/5.jpg');
 	background-repeat: no-repeat;
 	background-size: cover; /* 전체 배경을 채우도록 설정 */
 	background-position: center; /* 배경을 중앙에 위치 */
@@ -58,7 +58,7 @@ header.masthead {
 <br /><br />
 <div class="container">
 <div class="container container-custom" style="text-align: center;">
-	<h2 class="highlighted-text">那覇空港自動車道「南風原南」ICより約12分
+	<h2 class="highlighted-text2">那覇空港自動車道「南風原南」ICより約12分
 もしくは、バス「那覇バスターミナル」乗換～35番・100番の沖縄バス「志多伯入口」・「志多伯」下車</h2>	
 </div>
 	<br/>
