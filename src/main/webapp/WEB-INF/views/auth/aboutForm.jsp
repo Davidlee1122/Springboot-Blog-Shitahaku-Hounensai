@@ -57,6 +57,21 @@ header.masthead {
 </header>
 <br /><br />
 <div class="container">
+	<h2 class="highlighted-text">300年の歴史！地域住民が繋ぐ伝統行事</h2>
+	<br />
+	<h3 class="highlighted-text">◯日程</h3>
+	<br />
+	<h3 class="highlighted-text2">2024年9月17日～18日</h3>
+	<br />
+	<h3 class="highlighted-text2">【17日】道ズネー/14:00～、舞台/18:00～</h3>
+	<br />
+	<h3 class="highlighted-text2">【18日】道ズネー/16:00～</h3>
+	<br />
+	<br />
+	<h2 class="highlighted-text">300年以上の歴史を持つ八重瀬町志多伯の無病息災、五穀豊穣を願う伝統行事「志多伯獅子加那志13年忌豊年祭」が、2024年は年忌の節目にあたり盛大に開催されます。初日の昼間に行われる 旗頭を先頭とした100人規模の行列「道ズネー」や、深夜まで続く地域住民による舞台(伝統の獅子舞や棒術、村芝居、組踊 等)は圧巻です。次期は2036年の「25年忌豊年祭」となります。</h2>
+</div>
+<br /><br />
+<div class="container">
 <div class="container container-custom" style="text-align: center;">
 	<h1 class="highlighted-text">志多伯獅子加那志の年忌祭</h1>
 	<br /><br />
