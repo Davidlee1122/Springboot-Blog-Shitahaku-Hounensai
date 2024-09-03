@@ -2,7 +2,7 @@
 <%@ include file="../layout/header.jsp"%>
 <style>
 header.masthead {
-	background-image: url('${pageContext.request.contextPath}/images/4.jpg');
+	background-image: url('${pageContext.request.contextPath}/images13.jpg');
 	background-repeat: no-repeat;
 	background-size: cover; /* 전체 배경을 채우도록 설정 */
 	background-position: center; /* 배경을 중앙에 위치 */
