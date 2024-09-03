@@ -84,9 +84,6 @@
     		<a href="/auth/pastarticles" class="btn custom-btn">過去の記事</a>
     		<a href="/auth/relatedarticles" class="btn custom-btn">関連記事</a>
 	</div>
-	<div class="btn-container" style="text-align: center;">
-		<a href="/auth/access" class="btn custom-btn">アクセス</a>
-	</div>
 	<hr class="custom-hr">
 </div>
 <%@ include file="layout/footer.jsp"%>
