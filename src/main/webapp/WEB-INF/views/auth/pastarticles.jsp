@@ -3,7 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <style>
 header.masthead {
-	background-image: url('${pageContext.request.contextPath}/images/4.jpg');
+	background-image: url('${pageContext.request.contextPath}/images/11.jpg');
 	background-repeat: no-repeat;
 	background-size: cover; /* 전체 배경을 채우도록 설정 */
 	background-position: center; /* 배경을 중앙에 위치 */
@@ -64,7 +64,7 @@ header.masthead {
 </style>
 </head>
 <header class="masthead">
-	<p style="font-size: 65px">過去の記事</p>
+    <p style="font-size: 60px; color: black; font-weight: bold;">過去の記事</p>
 </header>
 <br />
 <br />
