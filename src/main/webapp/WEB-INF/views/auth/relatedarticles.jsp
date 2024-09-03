@@ -65,10 +65,10 @@ header.masthead {
 <div class="container">
 	<br />
 	<div class="card">
-		<img class="card-img-top" src="${pageContext.request.contextPath}/images/6.jpg" alt="Card image" style="width:300px; height:auto;">
+		<img class="card-img-top" src="${pageContext.request.contextPath}/images/6.jpg" alt="Card image" style="width:40%; height:auto; display: block; margin: 0 auto;">
 		<div class="card-body" style="text-align: right;">
-			<h3 class="card-title">【芸能の継承と地域づくり1】八重瀬町志多伯の豊年祭</h3>
-			<h4 class="card-text">しまかる−沖縄県文化情報ポータルサイト</h4>
+			<h4 class="card-title">【芸能の継承と地域づくり1】八重瀬町志多伯の豊年祭</h3>
+			<h5 class="card-text">しまかる−沖縄県文化情報ポータルサイト</h4>
 			<a href="https://www.shimacul.okinawa/special/3313/">https://www.shimacul.okinawa/special/3313/</a>
 		</div>
 	</div>
