@@ -65,10 +65,11 @@ header.masthead {
 <div class="container">
 	<br />
 	<div class="card">
-		<img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+		<img class="card-img-top" src="6.jpg" alt="Card image" style="width:100%">
 		<div class="card-body" style="text-align: right;">
-			<h3 class="card-title">내용 + 기사제목</h3>
-			<a href="naver.com" ></a>
+			<h3 class="card-title">【芸能の継承と地域づくり1】八重瀬町志多伯の豊年祭</h3>
+			<h4 class="card-text">しまかる−沖縄県文化情報ポータルサイト</h4>
+			<a href="https://www.shimacul.okinawa/special/3313/">https://www.shimacul.okinawa/special/3313/</a>
 		</div>
 	</div>
 	<hr class="custom-hr">
