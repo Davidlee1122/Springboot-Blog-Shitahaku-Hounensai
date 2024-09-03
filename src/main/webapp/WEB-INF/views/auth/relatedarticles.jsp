@@ -7,7 +7,7 @@ header.masthead {
 	background-repeat: no-repeat;
 	background-size: cover; /* 전체 배경을 채우도록 설정 */
 	background-position: center; /* 배경을 중앙에 위치 */
-	height: 75vh; /* 헤더 높이를 50vh로 설정 */
+	height: 50vh; /* 헤더 높이를 50vh로 설정 */
 	display: flex;
 	align-items: center;
 	justify-content: center;
