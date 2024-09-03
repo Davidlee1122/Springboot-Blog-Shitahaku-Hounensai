@@ -29,4 +29,9 @@ public class UserController {
 	public String aboutForm() {
 		return "/auth/aboutForm";
 	}
+
+	@GetMapping("/auth/relatedarticles")
+	public String relatedarticles() {
+		return "/auth/relatedarticles";
+	}
 }
