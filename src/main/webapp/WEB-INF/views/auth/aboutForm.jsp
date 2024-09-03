@@ -62,7 +62,7 @@ header.masthead {
 </style>
 </head>
 <header class="masthead">
-	<p style="font-size: 65px">豊年祭について</p>
+    <p style="font-size: 65px; color: black;">豊年祭について</p>
 </header>
 <br /><br />
 <div class="container container-custom3" style="text-align: center;">
