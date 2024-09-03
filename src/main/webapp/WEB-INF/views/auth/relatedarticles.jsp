@@ -74,7 +74,7 @@ header.masthead {
 	</div>
 	<br />
 	<div class="card">
-		<img class="card-img-top" src="${pageContext.request.contextPath}/images/8.jpg" alt="Card image" style="width:50%; height:auto; display: block; margin: 0 auto;">
+		<img class="card-img-top" src="${pageContext.request.contextPath}/images/7.jpg" alt="Card image" style="width:50%; height:auto; display: block; margin: 0 auto;">
 		<div class="card-body" style="text-align: right;">
 			<h4 class="card-title">「獅子加那志の鎮まれる村」</h3>
 			<h5 class="card-text">(一財)地域創造−地域文化資産ポータル</h4>
@@ -83,7 +83,7 @@ header.masthead {
 	</div>
 	<br />
 	<div class="card">
-		<img class="card-img-top" src="${pageContext.request.contextPath}/images/9.jpg" alt="Card image" style="width:50%; height:auto; display: block; margin: 0 auto;">
+		<img class="card-img-top" src="${pageContext.request.contextPath}/images/8.jpg" alt="Card image" style="width:50%; height:auto; display: block; margin: 0 auto;">
 		<div class="card-body" style="text-align: right;">
 			<h4 class="card-title">ドキュメンタリー映画『うむい獅子-仲宗根正廣の獅子づくり-』</h3>
 			<h5 class="card-text">海燕社</h4>
@@ -92,7 +92,7 @@ header.masthead {
 	</div>
 	<br />
 	<div class="card">
-		<img class="card-img-top" src="${pageContext.request.contextPath}/images/6.jpg" alt="Card image" style="width:50%; height:auto; display: block; margin: 0 auto;">
+		<img class="card-img-top" src="${pageContext.request.contextPath}/images/9.jpg" alt="Card image" style="width:50%; height:auto; display: block; margin: 0 auto;">
 		<div class="card-body" style="text-align: right;">
 			<h4 class="card-title">獅子加那志豊年祭</h3>
 			<h5 class="card-text">NPO日本の祭りネットワーク</h4>
