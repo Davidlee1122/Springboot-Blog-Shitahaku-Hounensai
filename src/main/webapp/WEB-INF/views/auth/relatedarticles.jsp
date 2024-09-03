@@ -65,11 +65,38 @@ header.masthead {
 <div class="container">
 	<br />
 	<div class="card">
-		<img class="card-img-top" src="${pageContext.request.contextPath}/images/6.jpg" alt="Card image" style="width:40%; height:auto; display: block; margin: 0 auto;">
+		<img class="card-img-top" src="${pageContext.request.contextPath}/images/6.jpg" alt="Card image" style="width:50%; height:auto; display: block; margin: 0 auto;">
 		<div class="card-body" style="text-align: right;">
 			<h4 class="card-title">【芸能の継承と地域づくり1】八重瀬町志多伯の豊年祭</h3>
 			<h5 class="card-text">しまかる−沖縄県文化情報ポータルサイト</h4>
 			<a href="https://www.shimacul.okinawa/special/3313/">https://www.shimacul.okinawa/special/3313/</a>
+		</div>
+	</div>
+	<br />
+	<div class="card">
+		<img class="card-img-top" src="${pageContext.request.contextPath}/images/8.jpg" alt="Card image" style="width:50%; height:auto; display: block; margin: 0 auto;">
+		<div class="card-body" style="text-align: right;">
+			<h4 class="card-title">「獅子加那志の鎮まれる村」</h3>
+			<h5 class="card-text">(一財)地域創造−地域文化資産ポータル</h4>
+			<a href="https://bunkashisan.ne.jp/bunkashisan/47_okinawa/7237.html">https://bunkashisan.ne.jp/bunkashisan/47_okinawa/7237.html</a>
+		</div>
+	</div>
+	<br />
+	<div class="card">
+		<img class="card-img-top" src="${pageContext.request.contextPath}/images/9.jpg" alt="Card image" style="width:50%; height:auto; display: block; margin: 0 auto;">
+		<div class="card-body" style="text-align: right;">
+			<h4 class="card-title">ドキュメンタリー映画『うむい獅子-仲宗根正廣の獅子づくり-』</h3>
+			<h5 class="card-text">海燕社</h4>
+			<a href="https://www.kaiensha.jp/umuijishi_store.html">https://www.kaiensha.jp/umuijishi_store.html</a>
+		</div>
+	</div>
+	<br />
+	<div class="card">
+		<img class="card-img-top" src="${pageContext.request.contextPath}/images/6.jpg" alt="Card image" style="width:50%; height:auto; display: block; margin: 0 auto;">
+		<div class="card-body" style="text-align: right;">
+			<h4 class="card-title">獅子加那志豊年祭</h3>
+			<h5 class="card-text">NPO日本の祭りネットワーク</h4>
+			<a href="https://www.nippon-matsuri.net/report/shishiganasi/">https://www.nippon-matsuri.net/report/shishiganasi/</a>
 		</div>
 	</div>
 	<hr class="custom-hr">
