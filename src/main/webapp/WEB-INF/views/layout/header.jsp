@@ -38,8 +38,9 @@
 				<c:when test="${empty principal}">
 					<ul class="navbar-nav">												
 						<li class="nav-item"><a class="nav-link" href="/auth/aboutForm">豊年祭について</a></li>
-						<li class="nav-item"><a class="nav-link" href="/auth/pastarticles">過去の記事</a>
-						<li class="nav-item"><a class="nav-link" href="/">関連記事</a></li>
+						<li class="nav-item"><a class="nav-link" href="/auth/pastarticles">過去の記事</a></li>
+						<li class="nav-item"><a class="nav-link" href="/auth/relatedarticles">関連記事</a></li>
+						<li class="nav-item"><a class="nav-link" href="/auth/access">アクセス</a></li>
 					</ul>
 				</c:when>
 				<c:otherwise>
