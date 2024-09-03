@@ -15,7 +15,7 @@ header.masthead {
 }
 
 .container-custom {
-	max-width: 800px; /* 최대 너비를 800px로 설정 */
+	max-width: 1200px; /* 최대 너비를 800px로 설정 */
 	margin: 0 auto; /* 가로로 중앙 정렬 */
 	padding: 20px; /* 내부 여백 추가 */
 	text-align: center; /* 텍스트 중앙 정렬 */
@@ -58,9 +58,9 @@ header.masthead {
 <br /><br />
 <div class="container">
 <div class="container container-custom" style="text-align: center;">
-	<h2 class="highlighted-text2">🗾 那覇空港自動車道「南風原南」ICより約12分</h2>
+	<h3 class="highlighted-text2">🗾 那覇空港自動車道「南風原南」ICより約12分</h3>
 	<br />
-	<h2 class="highlighted-text2">🗾 もしくは、バス「那覇バスターミナル」乗換～35番・100番の沖縄バス「志多伯入口」・「志多伯」下車</h2>	
+	<h3 class="highlighted-text2">🗾 もしくは、バス「那覇バスターミナル」乗換～35番・100番の沖縄バス「志多伯入口」・「志多伯」下車</h3>	
 </div>
 	<br/>
 	<hr class="custom-hr">
