@@ -48,7 +48,7 @@
 	<br />
 	<c:forEach var="board" items="${boards.content}">
 		<div class="card m-2">
-			<div class="card-body" style="text-align: right;">
+			<div class="card-body" style="text-align: left;">
 				<h4 class="card-title">${board.title}</h4>
 				<p class="card-text">
 					<fmt:formatDate value="${board.createDate}" pattern="yyyy.MM.dd" />
