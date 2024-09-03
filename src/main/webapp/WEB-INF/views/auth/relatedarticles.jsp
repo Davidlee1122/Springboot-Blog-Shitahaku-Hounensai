@@ -65,7 +65,7 @@ header.masthead {
 <div class="container">
 	<br />
 	<div class="card">
-		<img class="card-img-top" src="${pageContext.request.contextPath}/images/6.jpg" alt="Card image" style="width:100%">
+		<img class="card-img-top" src="${pageContext.request.contextPath}/images/6.jpg" alt="Card image" style="width:300px; height:auto;">
 		<div class="card-body" style="text-align: right;">
 			<h3 class="card-title">【芸能の継承と地域づくり1】八重瀬町志多伯の豊年祭</h3>
 			<h4 class="card-text">しまかる−沖縄県文化情報ポータルサイト</h4>
