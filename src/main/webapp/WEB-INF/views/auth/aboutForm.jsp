@@ -33,6 +33,15 @@ header.masthead {
 	border-radius: 8px; /* 모서리를 둥글게 설정 (선택사항) */
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* 옅은 그림자 추가 (선택사항) */
 }
+.container-custom3 {
+	max-width: 1000px; /* 최대 너비를 800px로 설정 */
+	margin: 0 auto; /* 가로로 중앙 정렬 */
+	padding: 20px; /* 내부 여백 추가 */
+	text-align: center; /* 텍스트 중앙 정렬 */
+	border: 1px solid rgba(0, 0, 0, 0.1); /* 아주 옅은 테두리 추가 */
+	border-radius: 8px; /* 모서리를 둥글게 설정 (선택사항) */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* 옅은 그림자 추가 (선택사항) */
+}
 .highlighted-text{
   display: inline;
   box-shadow: inset 0 -25px 0 #D9FCDB; 
@@ -56,8 +65,8 @@ header.masthead {
 	<p style="font-size: 65px">豊年祭について</p>
 </header>
 <br /><br />
-<div class="container">
-	<h2 class="highlighted-text">300年の歴史！地域住民が繋ぐ伝統行事</h2>
+<div class="container container-custom3" style="text-align: center;">
+	<h2 style="font-weight: bold;">300年の歴史！地域住民が繋ぐ伝統行事</h2>
 	<br />
 	<h3 class="highlighted-text">◯日程</h3>
 	<br />
@@ -68,7 +77,7 @@ header.masthead {
 	<h3 class="highlighted-text2">【18日】道ズネー/16:00～</h3>
 	<br />
 	<br />
-	<h2 class="highlighted-text">300年以上の歴史を持つ八重瀬町志多伯の無病息災、五穀豊穣を願う伝統行事「志多伯獅子加那志13年忌豊年祭」が、2024年は年忌の節目にあたり盛大に開催されます。初日の昼間に行われる 旗頭を先頭とした100人規模の行列「道ズネー」や、深夜まで続く地域住民による舞台(伝統の獅子舞や棒術、村芝居、組踊 等)は圧巻です。次期は2036年の「25年忌豊年祭」となります。</h2>
+	<h5>300年以上の歴史を持つ八重瀬町志多伯の無病息災、五穀豊穣を願う伝統行事「志多伯獅子加那志13年忌豊年祭」が、2024年は年忌の節目にあたり盛大に開催されます。初日の昼間に行われる 旗頭を先頭とした100人規模の行列「道ズネー」や、深夜まで続く地域住民による舞台(伝統の獅子舞や棒術、村芝居、組踊 等)は圧巻です。次期は2036年の「25年忌豊年祭」となります。</h2>
 </div>
 <br /><br />
 <div class="container">
