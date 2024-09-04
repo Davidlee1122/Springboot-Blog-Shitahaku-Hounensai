@@ -11,16 +11,17 @@
 <head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@600&display=swap" rel="stylesheet">
 <style>
 .fakeimg {
 	height: 200px;
 	background: #aaa;
 }
 body {
-        font-family: "M PLUS 1p", sans-serif;
-        font-weight: 400;
-        font-style: normal;
+        font-family: "Noto Sans JP", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: 600;
+  	font-style: normal;
     }
 </style>
 <title>志多伯 Shitahaku</title>
