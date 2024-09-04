@@ -9,6 +9,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400&display=swap" rel="stylesheet">
+<style>
+.fakeimg {
+	height: 200px;
+	background: #aaa;
+}
+body {
+        font-family: "M PLUS 1p", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+</style>
 <title>志多伯 Shitahaku</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,12 +33,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.js"></script>
-<style>
-.fakeimg {
-	height: 200px;
-	background: #aaa;
-}
-</style>
 </head>
 <body>
 	<nav class="navbar bg-light navbar-light d-flex justify-content-center">
