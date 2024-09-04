@@ -28,7 +28,7 @@ public class BoardController {
 	}
 	
 	@GetMapping("/auth/pastarticles")
-	public String pastarticles(Model model, @PageableDefault(size=5, sort="id", direction = Sort.Direction.DESC) Pageable pageable) {
+	public String pastarticles(Model model, @PageableDefault(size=3, sort="id", direction = Sort.Direction.DESC) Pageable pageable) {
 		model.addAttribute("boards", boardService.記事目録(pageable));
 		return "auth/pastarticles";  
 	}
