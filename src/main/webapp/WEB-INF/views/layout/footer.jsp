@@ -9,7 +9,7 @@
               <h6>TEL : 098-998-2141</h6>
               <h6>FAX : 098-998-2141</h6>
               <h6>
-                  <img src="${pageContext.request.contextPath}/instagram.jpg" style="width: 20px; height: 20px;" alt="Instagram"> 
+                  <img src="${pageContext.request.contextPath}/images/instagram.jpg" style="width: 20px; height: 20px;" alt="Instagram"> 
                   : <a href="https://www.instagram.com/shitahaku_yaese/">https://www.instagram.com/shitahaku_yaese/</a>
               </h6>
 
