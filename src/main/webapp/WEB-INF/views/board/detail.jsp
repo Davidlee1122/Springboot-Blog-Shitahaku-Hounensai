@@ -7,8 +7,8 @@
 	<button class="btn btn-secondary" onclick="history.back()">戻る</button>
 	<div style="text-align: right;">
 		<br /> 
-		글 번호 : <span id="id"><i>${board.id} </i></span> 
-		작성자 : <span><i>${board.user.username} </i></span> <br />
+		記事の番号 : <span id="id"><i>${board.id} </i></span> 
+		作成者 : <span><i>${board.user.username} </i></span> <br />
 	</div>
 	<div>
 		<h3>${board.title}</h3>
